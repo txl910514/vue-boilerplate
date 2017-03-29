@@ -1,6 +1,6 @@
 # my-project
 
-> A Vue.js project
+> A Vue.js project(webpack,vue,vuex,es6)
 
 ## Build Setup
 
