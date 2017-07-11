@@ -5,6 +5,7 @@ import AlertModel from '../pages/alert_page'
 import Form from '../pages/form'
 import App from '../pages/first_page/App'
 import Echarts from '../pages/echarts'
+import map from '../pages/echarts/map.vue'
 
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
@@ -17,6 +18,7 @@ export default new VueRouter({
         { path: '/home', component: App },
         { path: '/alertModel', component: AlertModel },
         { path: '/form', component: Form },
-        { path: '/echarts', component: Echarts }
+        { path: '/echarts', component: Echarts },
+        { path: '/map', component: map }
     ]
 });
